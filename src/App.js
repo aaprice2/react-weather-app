@@ -1,16 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Weather App</h1>
-        <Weather />
-      </header>
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <div className="SearchEngine">
+      <h1>Weather App</h1>
+      <Weather />
     </div>
-  );
-}
-
-export default App;
+  </StrictMode>
+);
