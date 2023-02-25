@@ -1,17 +1,14 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-
+import React from "react";
 import Weather from "./Weather";
 import "./App.css";
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <div className="SearchEngine">
-      <h1>Weather App</h1>
-      <Weather />
+export default function App() {
+  return (
+    <div className="App">
+      <div className="Container">
+        <h1>Weather App</h1>
+        <Weather />
+      </div>
     </div>
-  </StrictMode>
-);
+  )
+}
