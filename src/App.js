@@ -9,5 +9,5 @@ export default function App() {
         <Weather defaultCity="New York" />
       </div>
     </div>
-  )
+  );
 }
