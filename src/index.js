@@ -6,13 +6,12 @@ import Weather from "./Weather";
 import App from "./App";
 import "./App.css";
 
-
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <div className="SearchEngine">
+    <div className="container">
       <App />
     </div>
   </StrictMode>
