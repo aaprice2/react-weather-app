@@ -39,9 +39,8 @@
   margin-top: 20px;
   padding-left: 10px;
 }
-.Weather img {
-  height: 72px;
-  margin-top: 20px;
+.Weather canvas {
+  margin-top: 30px;
 }
 
 .Weather .current-conditions {
