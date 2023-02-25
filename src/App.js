@@ -17,7 +17,13 @@ export default function App() {
           >
             open-sourced on Github
           </a>{" "}
-          and <a href="/">hosted on Netlify.</a>
+          and{" "}
+          <a
+            href="https://master--legendary-taiyaki-a12dc5.netlify.app/"
+            target="_blank"
+          >
+            hosted on Netlify.
+          </a>
         </p>
       </footer>
     </div>
