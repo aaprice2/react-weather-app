@@ -4,7 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
-  return (
+    return (
     <div className="WeatherInfo">
       <div className="row">
         <div className="col-6">
